@@ -1,0 +1,222 @@
+#wrapper { 
+	margin: 0px auto;
+	width: 800px;
+	position: relative;
+	background-color:#FFFFFF;
+}
+
+.home_promo {
+	position:relative;
+	width:800px;
+	margin:0 auto;
+	padding:10px 0 20px 0;
+	text-align:center;
+	color:#000000;
+}
+.home_promo a {
+	text-decoration:underline;
+	color:#83a556;
+}
+.home_promo a:visited {
+	text-decoration:underline;
+	color:#83a556;
+}
+.home_promo a:hover {
+	text-decoration:none;
+	color:#000000;
+}
+
+
+.logoNav {
+	background: #E5E5E5;
+	position: relative;
+	height: 90px;
+	width: 800px;
+	margin-bottom:5px;
+}
+
+.logo {
+	position:absolute;
+	left:50px;
+	top:28px;
+}
+
+.nav {
+	position:absolute;
+	right:50px;
+	top:46px;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	
+}
+.nav a {
+	color:#000000;
+	margin-right:30px;
+	text-decoration:none;
+}
+.nav a:visited {
+
+}
+.nav a:hover {
+	text-decoration:underline;
+	color:#83a556;
+}
+
+#artDrop {
+	width:130px;
+	position:absolute;
+	top:60px;
+	left:440px;
+	padding:5px 10px;
+	visibility:hidden;
+	background-color:#E5E5E5;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:18px;
+	z-index:5;
+	
+}
+#artDrop a {
+	color:#000000;
+	text-decoration:none;
+	display:block;
+	margin-bottom:7px;
+}
+#artDrop a:visited {
+
+}
+#artDrop a:hover {
+	text-decoration:underline;
+	color:#83a556;
+}
+.blue {
+	width:800px;
+	position:relative;
+	top:0;
+	left:0;
+	background-color:#C6DEE5;
+	padding-bottom:20px !important;
+	padding-bottom:30px;
+	
+}
+.content {
+	position:relative;
+	padding:20px 50px 0 50px;
+}
+h1 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:18px;
+	color:#000000;
+
+}
+h2 {
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:14px;
+	line-height:20px;
+	color:#000000;
+
+}
+.text {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:17px;
+	color:#000000;
+}
+
+.gridRow {
+	position:relative;
+	width:700px;        /* -- may have another width inline, for rows with less than 5 pieces  -- */
+	padding-bottom:30px;
+	margin:0 auto;
+	text-align:center;
+}
+.gridItem {
+	float:left;
+	margin-right:20px;
+	vertical-align:top;
+}
+.gridItemLast {
+	float:left;
+	margin-right:0;
+	vertical-align:top;
+}
+.gridItem p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	margin-top:5px;
+}
+.gridItemLast p {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 12px;
+	margin-top:5px;
+}
+.caption {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	line-height: 13px;
+	}
+.pullQuote {
+	color:#83a556;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size:16px;
+	line-height:22px;
+	font-weight:bold;
+}
+
+#detWrap {
+	width:90%;
+	margin:0 auto;
+	position:relative;
+}
+.detContent {
+	width:100%;
+	position:relative;
+	top:0;
+	left:0;
+	margin:0 auto;
+	text-align:center;
+}
+.detImage {
+	float:left;
+}
+.detText {
+	width:150px;
+	margin:0 0 0 25px;
+	color:#000000;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:12px;
+	line-height:16px;
+	text-align:left;
+	float:left;
+	margin-left:40px;
+}
+
+.footer {
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	line-height: 16px;
+	background: #E5E5E5;
+	width: 800px;
+	position: relative;
+	margin-top:5px;
+	text-align:center;
+	padding:15px 0;
+}
+
+.footer a {
+	color:#000000;
+	text-decoration:none;
+}
+.footer a:visited {
+
+}
+.footer a:hover {
+	text-decoration:underline;
+	color:#83a556;
+}
+.clear {
+	clear:both;
+}
